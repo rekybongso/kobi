@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    >
+
+    <ImageView
+        android:id="@+id/bankIcon_Img"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        tool:src="@drawable/placeholder"
+        />
+
+        <TextView
+            android:id="@+id/bankName_Tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/bankIcon_Img"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/nama_bank"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/primaryTextColor"
+            />
+
+        <TextView
+            android:id="@+id/bankCode_Tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bankName_Tv"
+            android:layout_toRightOf="@id/bankIcon_Img"
+            android:text="@string/kode_bank"
+            android:textSize="14sp"
+            android:textColor="@color/secondaryTextColor"
+            />
+
+</RelativeLayout>
