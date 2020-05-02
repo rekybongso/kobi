@@ -1,4 +1,6 @@
-package com.rekybongso.kobi
+package com.rekybongso.kobi.data
+
+import com.rekybongso.kobi.R
 
 object BankData {
     private var bankData = arrayOf(
@@ -12,7 +14,7 @@ object BankData {
                     "Indonesia",
             "14017",
             "https://bri.co.id/",
-            R.drawable.main_logo
+            R.drawable.bri
         ),
         arrayOf(
             "Bank Central Asia (BCA)",
@@ -24,7 +26,7 @@ object BankData {
                     "Indonesia",
             "02123588000",
             "https://www.bca.co.id/",
-            R.drawable.main_logo
+            R.drawable.bca
         ),
         arrayOf(
             "Bank Mandiri",
@@ -35,7 +37,7 @@ object BankData {
                     "Indonesia",
             "02152997777",
             "https://www.bankmandiri.co.id/",
-            R.drawable.main_logo
+            R.drawable.mandiri
         ),
         arrayOf(
             "Bank Negara Indonesia (BNI)",
@@ -47,7 +49,7 @@ object BankData {
                     "Indonesia",
             "0212511946",
             "https://www.bni.co.id/id-id/",
-            R.drawable.main_logo
+            R.drawable.bni
         ),
         arrayOf(
             "Bank CIMB Niaga",
@@ -59,7 +61,7 @@ object BankData {
                     "Indonesia",
             "14041",
             "https://www.cimbniaga.co.id/",
-            R.drawable.main_logo
+            R.drawable.cimb
         ),
         arrayOf(
             "Bank Muamalat",
@@ -72,7 +74,7 @@ object BankData {
                     "Indonesia",
             "0218066000",
             "https://www.bankmuamalat.co.id/",
-            R.drawable.main_logo
+            R.drawable.muamalat
         ),
         arrayOf(
             "Bank Tabungan Pensiunan Nasional (BTPN)",
@@ -84,7 +86,7 @@ object BankData {
                     "Indonesia",
             "1500300",
             "https://www.btpn.com/",
-            R.drawable.main_logo
+            R.drawable.btpn
         ),
         arrayOf(
             "Bank Tabungan Negara (BTN)",
@@ -96,7 +98,7 @@ object BankData {
                     "Indonesia",
             "0216336789",
             "https://www.btn.co.id/",
-            R.drawable.main_logo
+            R.drawable.btn
         ),
         arrayOf(
             "Bank Permata",
@@ -108,7 +110,7 @@ object BankData {
                     "Indonesia",
             "02177289928",
             "https://www.permatabank.com/",
-            R.drawable.main_logo
+            R.drawable.permata
         ),
         arrayOf(
             "Bank Danamon",
@@ -119,7 +121,7 @@ object BankData {
                     "Indonesia",
             "1500090",
             "https://www.danamon.co.id/",
-            R.drawable.main_logo
+            R.drawable.danamon
         ),
         arrayOf(
             "Bank Mega",
@@ -131,7 +133,7 @@ object BankData {
                     "Indonesia",
             "1500010",
             "https://www.bankmega.com/",
-            R.drawable.main_logo
+            R.drawable.mega
         ),
         arrayOf(
             "Bank Maybank Indonesia",
@@ -143,7 +145,7 @@ object BankData {
                     "Indonesia",
             "1500611",
             "https://www.maybank.co.id/",
-            R.drawable.main_logo
+            R.drawable.maybank
         ),
         arrayOf(
             "Bank Sinarmas",
@@ -156,7 +158,7 @@ object BankData {
                     "Indonesia",
             "1500153",
             "https://www.banksinarmas.com/",
-            R.drawable.main_logo
+            R.drawable.sinarmas
         ),
         arrayOf(
             "Bank Commonwealth",
@@ -168,7 +170,7 @@ object BankData {
                     "Indonesia",
             "1500030",
             "https://www.commbank.co.id/",
-            R.drawable.main_logo
+            R.drawable.cmw
         ),
         arrayOf(
             "Bank OCBC NISP",
@@ -180,7 +182,7 @@ object BankData {
                     "Indonesia",
             "1500999",
             "https://www.ocbcnisp.com/",
-            R.drawable.main_logo
+            R.drawable.ocbc
         ),
         arrayOf(
             "Bank Bukopin",
@@ -191,7 +193,7 @@ object BankData {
                     "Indonesia",
             "0217988266",
             "https://www.bukopin.co.id/",
-            R.drawable.main_logo
+            R.drawable.bukopin
         )
     )
 

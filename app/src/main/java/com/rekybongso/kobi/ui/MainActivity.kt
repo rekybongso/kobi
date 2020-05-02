@@ -1,9 +1,13 @@
-package com.rekybongso.kobi
+package com.rekybongso.kobi.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.rekybongso.kobi.R
+import com.rekybongso.kobi.data.BankData
+import com.rekybongso.kobi.data.BankModel
+import com.rekybongso.kobi.util.BankAdapter
 
 class MainActivity : AppCompatActivity() {
 

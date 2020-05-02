@@ -22,11 +22,11 @@
     <ImageView
         android:id="@+id/bankIcon_Img"
         android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_height="55dp"
         android:layout_margin="10dp"
         android:scaleType="centerCrop"
         android:contentDescription="@string/logo_bank_di_indonesia"
-        tools:src="@android:color/background_dark"
+        tools:src="@drawable/placeholder"
         />
 
     <TextView

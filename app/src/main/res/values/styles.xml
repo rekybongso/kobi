@@ -4,9 +4,9 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryDark">@color/primaryDarkColor</item>
-        <item name="colorAccent">@color/secondaryLightColor</item>
         <item name="android:navigationBarColor">@color/secondaryDarkColor</item>
         <item name="titleTextColor">@color/primaryTextColor</item>
+        <item name="icon">@color/primaryTextColor</item>
     </style>
 
     <!-- Splash Theme -->

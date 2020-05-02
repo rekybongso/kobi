@@ -1,4 +1,4 @@
-package com.rekybongso.kobi
+package com.rekybongso.kobi.data
 
 data class BankModel (
     var namaBank : String = "",
