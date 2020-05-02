@@ -3,4 +3,5 @@
     <string name="app_version">v.0.1-alpha</string>
     <string name="nama_bank">Nama Bank</string>
     <string name="kode_bank">Kode Bank: 123</string>
+    <string name="logo_bank_di_indonesia">Logo bank di Indonesia</string>
 </resources>
