@@ -10,13 +10,15 @@ import com.rekybongso.kobi.R
 
 class SplashActivity : AppCompatActivity() {
 
-    private val splashTime:Long = 3000L
+    private val splashTime:Long = 2500L
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
         setContentView(R.layout.activity_splash)
+
+        with(window){
+            setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
+        }
 
         Handler().postDelayed({
             startActivity(Intent(this, MainActivity::class.java))

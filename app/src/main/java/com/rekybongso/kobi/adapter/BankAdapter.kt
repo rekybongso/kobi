@@ -1,7 +1,6 @@
-package com.rekybongso.kobi.util
+package com.rekybongso.kobi.adapter
 
 import android.content.Intent
-import android.content.res.Resources
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.rekybongso.kobi.R
-import com.rekybongso.kobi.data.BankModel
+import com.rekybongso.kobi.model.BankModel
 import com.rekybongso.kobi.ui.DetailActivity
 
 class BankAdapter (private val listBank: ArrayList<BankModel>) : RecyclerView.Adapter<BankAdapter.ListViewHolder>(){
@@ -47,6 +46,7 @@ class BankAdapter (private val listBank: ArrayList<BankModel>) : RecyclerView.Ad
                 nDetail.putExtra(DetailActivity.EXTRA_LOGO_BANK, logoBank)
                 nContext.startActivity(nDetail)
         }
+
     }
 
     inner class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){

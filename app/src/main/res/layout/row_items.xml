@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainCardView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:clickable="true"
@@ -25,7 +26,7 @@
         android:layout_height="55dp"
         android:layout_margin="10dp"
         android:scaleType="centerCrop"
-        android:contentDescription="@string/logo_bank_di_indonesia"
+        android:contentDescription="@string/logo_bank_desc"
         tools:src="@drawable/placeholder"
         />
 

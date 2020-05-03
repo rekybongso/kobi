@@ -1,6 +1,7 @@
 package com.rekybongso.kobi.data
 
 import com.rekybongso.kobi.R
+import com.rekybongso.kobi.model.BankModel
 
 object BankData {
     private var bankData = arrayOf(

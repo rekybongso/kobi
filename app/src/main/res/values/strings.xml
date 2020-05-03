@@ -1,15 +1,15 @@
 <resources>
     <string name="app_name">Kobi</string>
-    <string name="app_version">v.0.2-alpha</string>
+    <string name="app_version">v.0.3-alpha</string>
     <string name="nama_bank">Nama Bank</string>
     <string name="kode_bank">Kode Bank</string>
     <string name="kode_swift">Kode Swift</string>
     <string name="digit">000</string>
     <string name="swift">ABCDEFGH</string>
     <string name="info">Informasi Lainnya</string>
-    <string name="no_telp">15000001</string>
-    <string name="isi_alamat">Alamat kantor bank abcd</string>
+    <string name="no_telp">00000000</string>
+    <string name="isi_alamat">Template alamat kantor</string>
     <string name="website_bank">http://www.google.com</string>
-    <string name="logo_bank_di_indonesia">Logo bank di Indonesia</string>
-    <string name="tapkode">Tap kode bank atau kode switt untuk copy ke dalam clipboard</string>
+    <string name="logo_bank_desc">Logo bank di Indonesia</string>
+    <string name="tapkode">Tap kode bank atau kode swift untuk meng-copy-nya</string>
 </resources>
