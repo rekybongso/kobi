@@ -1,6 +1,9 @@
 package com.rekybongso.kobi.adapter
 
+import android.annotation.SuppressLint
+import android.content.Context
 import android.content.Intent
+import android.content.res.Resources
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -22,6 +25,8 @@ class BankAdapter (private val listBank: ArrayList<BankModel>) : RecyclerView.Ad
     override fun getItemCount(): Int {
         return listBank.size
     }
+
+    @SuppressLint("SetTextI18n")
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val (namaBank, kodeBank,kodeSwift,alamatBank,teleponBank,websiteBank,logoBank) = listBank[position]

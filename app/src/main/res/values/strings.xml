@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Kobi</string>
-    <string name="app_version">v.0.3-alpha</string>
+    <string name="app_version">v.0.4-alpha</string>
     <string name="nama_bank">Nama Bank</string>
     <string name="kode_bank">Kode Bank</string>
     <string name="kode_swift">Kode Swift</string>
@@ -12,4 +12,9 @@
     <string name="website_bank">http://www.google.com</string>
     <string name="logo_bank_desc">Logo bank di Indonesia</string>
     <string name="tapkode">Tap kode bank atau kode swift untuk meng-copy-nya</string>
+    <string name="tentang_saya">Tentang Saya</string>
+    <string name="reky_wiryanto_bongso">Reky Wiryanto Bongso</string>
+    <string name="email">rekybongso@gmail.com</string>
+    <string name="tentang_program">Kobi merupakan aplikasi database kode bank di Indonesia. Aplikasi ini saya buat untuk membantu orang tua saya yang terkadang lupa kode bank ketika ingin bertransaksi via mobile.\n\nSelain itu aplikasi ini juga merupakan tugas submission Belajar Membuat Aplikasi Android untuk Pemula di Dicoding Indonesia.</string>
+    <string name="credit_to_icons8">Icon used in this app provided by Icons8</string>
 </resources>

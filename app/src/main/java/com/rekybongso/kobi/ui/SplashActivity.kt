@@ -10,7 +10,7 @@ import com.rekybongso.kobi.R
 
 class SplashActivity : AppCompatActivity() {
 
-    private val splashTime:Long = 2500L
+    private val splashTime:Long = 2000L
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
