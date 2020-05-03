@@ -11,15 +11,12 @@
     android:foreground="?attr/selectableItemBackground"
     app:cardCornerRadius="6dp"
     app:cardElevation="3dp"
-    app:cardUseCompatPadding="true"
-    >
+    app:cardUseCompatPadding="true">
     <RelativeLayout
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:padding="10dp"
-        >
-
+        android:padding="10dp">
     <ImageView
         android:id="@+id/bankIcon_Img"
         android:layout_width="100dp"
@@ -27,9 +24,7 @@
         android:layout_margin="10dp"
         android:scaleType="centerCrop"
         android:contentDescription="@string/logo_bank_desc"
-        tools:src="@drawable/placeholder"
-        />
-
+        tools:src="@drawable/placeholder" />
     <TextView
         android:id="@+id/bankName_Tv"
         android:layout_width="match_parent"
@@ -40,9 +35,7 @@
         android:text="@string/nama_bank"
         android:textStyle="bold"
         android:textSize="16sp"
-        android:textColor="@color/primaryTextColor"
-        />
-
+        android:textColor="@color/primaryTextColor" />
     <TextView
         android:id="@+id/bankCode_Tv"
         android:layout_width="match_parent"
@@ -51,8 +44,6 @@
         android:layout_toEndOf="@id/bankIcon_Img"
         android:text="@string/kode_bank"
         android:textSize="14sp"
-        android:textColor="@color/secondaryTextColor"
-        />
-
+        android:textColor="@color/secondaryTextColor" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

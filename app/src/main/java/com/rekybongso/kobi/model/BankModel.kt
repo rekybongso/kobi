@@ -3,7 +3,7 @@ package com.rekybongso.kobi.model
 data class BankModel (
     var namaBank : String = "",
     var kodeBank : String = "",
-    var swiftBank : String = "",
+    var kodeswiftBank : String = "",
     var alamatBank : String = "",
     var teleponBank : String = "",
     var websiteBank : String = "",

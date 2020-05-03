@@ -205,7 +205,7 @@ object BankData {
             val bank = BankModel()
             bank.namaBank = n[0] as String
             bank.kodeBank = n[1] as String
-            bank.swiftBank = n[2] as String
+            bank.kodeswiftBank = n[2] as String
             bank.alamatBank = n[3] as String
             bank.teleponBank = n[4] as String
             bank.websiteBank = n[5] as String

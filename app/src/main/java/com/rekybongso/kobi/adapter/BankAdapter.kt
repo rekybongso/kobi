@@ -42,9 +42,9 @@ class BankAdapter (private val listBank: ArrayList<BankModel>) : RecyclerView.Ad
 
         holder.itemView.setOnClickListener{
             val nDetail = Intent(nContext, DetailActivity::class.java)
-                nDetail.putExtra(DetailActivity.EXTRA_NAME, namaBank)
-                nDetail.putExtra(DetailActivity.EXTRA_BANK_CODE, kodeBank)
-                nDetail.putExtra(DetailActivity.EXTRA_SWIFT_CODE, kodeSwift)
+                nDetail.putExtra(DetailActivity.EXTRA_NAMA, namaBank)
+                nDetail.putExtra(DetailActivity.EXTRA_KODE_BANK, kodeBank)
+                nDetail.putExtra(DetailActivity.EXTRA_KODE_SWIFT, kodeSwift)
                 nDetail.putExtra(DetailActivity.EXTRA_ALAMAT_BANK, alamatBank)
                 nDetail.putExtra(DetailActivity.EXTRA_NO_TELP, teleponBank)
                 nDetail.putExtra(DetailActivity.EXTRA_WEBSITE, websiteBank)

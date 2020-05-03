@@ -14,6 +14,7 @@ import com.rekybongso.kobi.adapter.BankAdapter
 import com.rekybongso.kobi.data.BankData
 import com.rekybongso.kobi.model.BankModel
 import com.rekybongso.kobi.util.bind
+import org.intellij.lang.annotations.JdkConstants
 
 class MainActivity : AppCompatActivity(){
     private val recyclerViewBank: RecyclerView by bind(R.id.mainRecyclerView)
@@ -28,8 +29,9 @@ class MainActivity : AppCompatActivity(){
         val actionBar = supportActionBar
 
         actionBar?.run {
-            setHomeAsUpIndicator(R.drawable.main_logo_24)
+            setHomeAsUpIndicator(R.drawable.main_logo)
             setDisplayHomeAsUpEnabled(true)
+            setDisplayShowTitleEnabled(false)
         }
 
         this.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_SENSOR_PORTRAIT

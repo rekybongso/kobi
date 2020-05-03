@@ -7,7 +7,6 @@ import android.os.Handler
 import android.view.WindowManager
 import com.rekybongso.kobi.R
 
-
 class SplashActivity : AppCompatActivity() {
 
     private val splashTime:Long = 2000L
