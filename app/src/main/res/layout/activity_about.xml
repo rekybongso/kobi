@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/primaryLightColor">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/reky_wiryanto_bongso"
+        android:src="@drawable/ava" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reky_wiryanto_bongso"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp" />
+    <TextView
+        android:id="@+id/my_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tentang_program"
+        android:textSize="14sp"
+        android:padding="25dp"
+        android:background="@color/primaryAccent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:text="@string/credit_to_icons8"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+</LinearLayout>
+</ScrollView>
