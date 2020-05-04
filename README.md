@@ -3,6 +3,17 @@ Kobi merupakan aplikasi kode bank Indonesia. Aplikasi ini saya buat untuk memban
 
 Aplikasi ini juga dibuat untuk memenuhi tugas submission "**Belajar Membuat Aplikasi Android untuk Pemula**" oleh Dicoding Indonesia.
 
+
+## Screenshots
+<img src="https://github.com/rekybongso/Kobi/blob/master/main_screen.jpg"
+     alt="Home Screen"
+     style="float: left; margin-right: 10px;"
+     width="200" /> 
+<img src="https://github.com/rekybongso/Kobi/blob/master/detail_scren.jpg"
+     alt="Detail Screen"
+     style="float: left; margin-right: 10px;"
+     width="200" />
+     
 ## Instalasi
 Clone repository ini untuk mengimpornya kedalam Android Studio:
 ```
