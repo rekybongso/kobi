@@ -14,7 +14,7 @@ Aplikasi ini juga dibuat untuk memenuhi tugas submission "**Belajar Membuat Apli
      style="float: left; margin-right: 10px;"
      width="200" />
      
-## Instalasi
+## Instalasi dan Modifikasi
 Clone repository ini untuk mengimpornya kedalam Android Studio:
 ```
 https://github.com/rekybongso/Kobi.git
@@ -31,6 +31,6 @@ https://github.com/rekybongso/Kobi.git
 * [Glide](https://github.com/bumptech/glide) - Loading and Caching Lib
 * [Icon8](https://icons8.com/) - Icon
 
-## Author
-* **Reky Bongso** - *Initial work* - [GitHub](https://github.com/rekybongso)
+## Kontak
+Jika ada yang ingin ditanyakan silahkan hubungi saya melalui Discord: **rekybongso#6836**
 
