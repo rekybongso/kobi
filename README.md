@@ -31,5 +31,5 @@ https://github.com/rekybongso/Kobi.git
 * [Icon8](https://icons8.com/) - Icon
 
 ## Kontak
-Jika ada yang ingin ditanyakan silahkan hubungi saya melalui Discord: **rekybongso#6836**
+Jika ada yang ingin ditanyakan silahkan hubungi saya melalui Discord:  __rekyb#3481__
 
